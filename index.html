@@ -158,17 +158,17 @@
         const actions = document.getElementById("actions");
 
         if (step === 1) {
-          msg.innerText = "Okay… can I get one chance? 😅";
+          msg.innerText = "Okay… Ek pan chance nahi denar garibala? 😅";
           actions.innerHTML =
             '<button onclick="forgiveYes()">Hoo 🙂</button><button onclick="forgiveNo()">Ajibat Nahi 😐</button>';
         } else if (step === 2) {
-          msg.innerText = "Still asking nicely 🙈";
+          msg.innerText = "Asa karnar ka ata 🥺🥺🥺";
           actions.innerHTML =
             '<button onclick="forgiveYes()">Chal Kela Maaf 😌</button><button onclick="forgiveNo()">Naaaaa 😶</button>';
         } else {
-          msg.innerText = "Last try, promise 😄";
+          msg.innerText = "Pleaseee naaaa 😄";
           actions.innerHTML =
-            '<button onclick="finalYes()">Tu Ahes Mhanun Kela Maaf ❤️</button><button onclick="finalAngry()">Bara Chal Maaf Kela Yeduu… 😤</button>';
+            '<button onclick="finalYes()">Cute Ahes Mhanun Kela Maaf ❤️</button><button onclick="finalAngry()">Chal Maaf Kela Yeduu… 😤</button>';
         }
       }
 
@@ -185,7 +185,7 @@
         clearInterval(heartInterval);
         heartInterval = setInterval(createHeart, 500);
         document.querySelector("p").innerText =
-          "I’ll take this win 😅 Thanks, Shital ❤️";
+          "Chukun zala ga.. Kharach maaf kela asashil tar mala 👊 pathav whatsapp la. ❤️";
         document.getElementById("actions").innerHTML = "";
       }
 
